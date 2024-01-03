@@ -1,4 +1,4 @@
-from span_marker.onnx.spanmarker_onnx import export_spanmarker_to_onnx, SpanMarkerOnnx
+from span_marker.onnx import export_spanmarker_to_onnx, SpanMarkerOnnx
 from span_marker.tokenizer import SpanMarkerTokenizer, SpanMarkerConfig
 import time
 from span_marker import SpanMarkerModel
